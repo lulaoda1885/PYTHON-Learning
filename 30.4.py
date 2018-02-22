@@ -40,3 +40,4 @@ if input() in OK:
 			if os.path.splitext(each_file)[1] in file_type:      #判断是否文本文件
 				full_path = os.path.join(r, each_file)           #获取文本文件完整路径
 				seek_keyword(full_path, keyword)                 #调用查找函数进行查找和打印
+				
